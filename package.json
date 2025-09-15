@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaigidwani/streaming-media-assignment.git"
+  },
+  "author": "Kai Gidwani",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kaigidwani/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/kaigidwani/streaming-media-assignment#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
